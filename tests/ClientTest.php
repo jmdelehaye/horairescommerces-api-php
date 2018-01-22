@@ -1,6 +1,6 @@
 <?php
 
-namespace test\TLH\HorairesCommercesApi;
+namespace TLH\HorairesCommercesApi;
 
 use TLH\HorairesCommercesApi\Client as ApiClient;
 use GuzzleHttp\Client as GuzzleClient;

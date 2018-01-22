@@ -22,13 +22,13 @@
     "phpunit/phpunit": "^5.7"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "TLH\\HorairesCommercesApi\\": "src/"
     }
   },
   "autoload-dev": {
-    "psr-0": {
-      "TLH\\HorairesCommercesApi\\Tests\\": "tests/"
-    }
+    "classmap": [
+        "tests/"
+    ]
   }
 }
